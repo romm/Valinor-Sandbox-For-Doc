@@ -71,7 +71,7 @@ jobs:
           chmod 600 ~/.ssh/id_rsa
           ssh-keyscan -H github.com > ~/.ssh/known_hosts
 
-      - run: git remote add doc git@github.com:CuyZ/Valinor-Documentation.git
+      - run: git remote add doc git@github.com:romm/Valinor-Documentation-Sandbox.git
       - run: git fetch doc gh-pages --verbose
 
       - run: |
